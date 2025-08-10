@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run vercel-build",
+  "buildCommand": "npm ci",
   "installCommand": "npm install",
   "outputDirectory": "dist/public",
   "rewrites": [
@@ -9,6 +9,7 @@
     }
   ]
 }
+
 
 
 
