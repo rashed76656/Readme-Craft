@@ -7,16 +7,6 @@
       "runtime": "@vercel/node"
     }
   },
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/index.ts"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ],
   "rewrites": [
     {
       "source": "/api/(.*)",
@@ -24,3 +14,4 @@
     }
   ]
 }
+
